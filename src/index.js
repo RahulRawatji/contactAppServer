@@ -19,4 +19,4 @@ app.get('/', (req, res) => {
   res.send('APP is running')
 });
 
-app.listen(3100, () => console.log('Server is running at port 3100'));
+app.listen(port, () => console.log('Server is running'));
